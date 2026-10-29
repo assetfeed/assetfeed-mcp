@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.assetfeed/market-data",
+  "title": "AssetFeed Market Data",
+  "description": "Read-only mention counts, recaps and market data for crypto, stocks, ETFs, forex and commodities.",
+  "version": "1.3.0",
+  "websiteUrl": "https://assetfeed.com/mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.assetfeed.com/mcp"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/assetfeed/assetfeed-mcp",
+    "source": "github",
+    "subfolder": "market-data"
+  }
+}

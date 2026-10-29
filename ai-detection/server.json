@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.assetfeed/ai-detection",
+  "title": "AssetFeed AI Detection",
+  "description": "Estimate how much of an English text or web page reads as AI-written. Read-only, two tools.",
+  "version": "1.0.0",
+  "websiteUrl": "https://assetfeed.com/ai-content-detector",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.assetfeed.com/mcp/ai-detection"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/assetfeed/assetfeed-mcp",
+    "source": "github",
+    "subfolder": "ai-detection"
+  }
+}
