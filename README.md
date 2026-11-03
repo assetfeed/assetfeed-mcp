@@ -2,7 +2,7 @@
 
 <img src="logo.png" alt="AssetFeed" width="96" align="right">
 
-One hosted (remote) MCP server from [AssetFeed](https://assetfeed.com) at `https://api.assetfeed.com/mcp`. There is nothing to install: point your MCP client at the URL and sign in. When you sign in, you choose which AssetFeed services the connection gets; you can change them later on [assetfeed.com/api-keys](https://assetfeed.com/api-keys). Sign in with OAuth or use an API key. Every plan can connect.
+One hosted (remote) MCP server from [AssetFeed](https://assetfeed.com) at `https://api.assetfeed.com/mcp`. There is nothing to install: point your MCP client at the URL and sign in. When you sign in, you choose which AssetFeed services your account uses. The choice covers every connection and API key on the account, and you can change it later on [assetfeed.com/api-keys](https://assetfeed.com/api-keys). Sign in with OAuth or use an API key. Every plan can connect.
 
 | Service | Tools |
 |---|---|
@@ -37,11 +37,11 @@ Details: [assetfeed.com/ai-content-detector](https://assetfeed.com/ai-content-de
 
 ## Connect
 
-**Claude (web, desktop, mobile, Claude Code):** open [assetfeed.com/mcp](https://assetfeed.com/mcp) and use the Claude one-click setup, or add the server URL as a custom connector and sign in with your AssetFeed account. Tick the services you want on the sign-in screen.
+**Claude (web, desktop, mobile, Claude Code):** open [assetfeed.com/mcp](https://assetfeed.com/mcp) and use the Claude one-click setup, or add the server URL as a custom connector and sign in with your AssetFeed account. Tick the services you want on the sign-in screen; this sets them for your whole account.
 
 **ChatGPT (web):** Plugins → + → Add custom MCP server, name it AssetFeed, paste the server URL, choose OAuth and sign in with your AssetFeed account. Works on Business, Enterprise and Edu plans, and Pro with read-only access. An admin may need to allow the server first. It can't be added in the phone app.
 
-**Cursor and VS Code:** one-click setup is on [assetfeed.com/mcp](https://assetfeed.com/mcp). Other clients without sign-in can use an API key from [assetfeed.com/api-keys](https://assetfeed.com/api-keys) sent as a Bearer header; choose the services for the key on the same page:
+**Cursor and VS Code:** one-click setup is on [assetfeed.com/mcp](https://assetfeed.com/mcp). Other clients without sign-in can use an API key from [assetfeed.com/api-keys](https://assetfeed.com/api-keys) sent as a Bearer header. The key uses the services chosen for your account on the same page:
 
 ```json
 {
