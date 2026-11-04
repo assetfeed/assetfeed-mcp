@@ -29,10 +29,6 @@ Check an English text or a page address for AI-written passages from Claude, Cha
 
 `detect_ai_text` takes pasted text and shows how much of it reads as AI-written, passage by passage. `detect_ai_url` fetches a public web page by its address and checks the text it finds. Ask in plain language, for example "Is this draft written by AI?", and your assistant calls the tool for you. It works on English text of about 50 to 30,000 words; other languages and very short texts are not checked. No detector is right every time, and formal or heavily edited human writing can be flagged, so read the marked passages yourself. Each tool call uses AssetFeed credits.
 
-The detector is also served on its own at `https://api.assetfeed.com/mcp/ai-detection`, for apps that should have nothing else.
-
-[![AssetFeed AI Detection MCP connector](https://glama.ai/mcp/connectors/com.assetfeed/ai-detection/badges/score.svg)](https://glama.ai/mcp/connectors/com.assetfeed/ai-detection)
-
 Details: [assetfeed.com/ai-content-detector](https://assetfeed.com/ai-content-detector)
 
 ## Connect

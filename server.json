@@ -3,7 +3,7 @@
   "name": "com.assetfeed/market-data",
   "title": "AssetFeed",
   "description": "Market data, mention counts and AI text detection in one server. Pick services when you connect.",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "websiteUrl": "https://assetfeed.com/mcp",
   "remotes": [
     {
@@ -13,7 +13,6 @@
   ],
   "repository": {
     "url": "https://github.com/assetfeed/assetfeed-mcp",
-    "source": "github",
-    "subfolder": "market-data"
+    "source": "github"
   }
 }
